@@ -1,7 +1,7 @@
 :root {
   --Background: #f0f4f8; /*(Very Light Blue-Gray) */
   --Primary: #3f88c5; /* (Sky Blue) */
-  --Accent: #8cbeb2; /* (Pale Seafoam) */
+  --Accent: #3f5767; /* (Darker Blue) */
   --Text: #333333; /*(Dark Gray) */
   --Highlight: #e6f2f8; /* (Very Light Aqua) */
   --Body-font: "Quicksand", sans-serif; /* (Modern Sans-Serif) */
@@ -24,4 +24,19 @@ h2,
 h3 {
   font-family: var(--Header-font);
   color: var(--Primary);
+}
+
+.navbar {
+  background-color: var(--Accent);
+}
+
+.nav-link,
+.navbar-brand,
+.navbar-toggler {
+  color: var(--Highlight);
+}
+
+.active {
+  color: var(--Highlight) !important;
+  font-weight: bold;
 }
