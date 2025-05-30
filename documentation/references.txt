@@ -1,0 +1,16 @@
+Google fonts
+https://fonts.google.com/specimen/Quicksand
+https://fonts.google.com/specimen/Karla
+
+Font awesome
+
+
+favicon
+
+https://favicon.io/favicon-generator/
+This favicon was generated using the following font:
+
+- Font Title: Karla
+- Font Author: Jonny Pinhorn
+- Font Source: https://fonts.gstatic.com/s/karla/v31/qkBIXvYC6trAT55ZBi1ueQVIjQTD-JqqFENLR7fHGw.ttf
+- Font License: undefined)

@@ -1,0 +1,9 @@
+:root {
+  --Background: #f0f4f8; /*(Very Light Blue-Gray) */
+  --Primary: #3f88c5; /* (Sky Blue) */
+  --Accent: #8cbeb2; /* (Pale Seafoam) */
+  --Text: #333333; /*(Dark Gray) */
+  --Highlight: #e6f2f8; /* (Very Light Aqua) */
+  --Body-font: "Quicksand", sans-serif; /* (Modern Sans-Serif) */
+  --Header-font: "Karla", sans-serif; /* (Bold Sans-Serif) */
+}
