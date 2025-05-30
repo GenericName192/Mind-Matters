@@ -16,8 +16,10 @@ This favicon was generated using the following font:
 - Font License: undefined
 
 images
-https://www.pexels.com/photo/body-of-water-during-golden-hour-189349/
+chatgpt
 https://squoosh.app/
 
 help with code
 https://stackoverflow.com/questions/19733447/bootstrap-navbar-with-left-center-or-right-aligned-items
+https://www.w3schools.com/howto/howto_css_flip_card.asp
+https://www.youtube.com/watch?v=NCLdf661ILE

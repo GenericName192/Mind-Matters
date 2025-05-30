@@ -6,12 +6,14 @@
   --Highlight: #e6f2f8; /* (Very Light Aqua) */
   --Body-font: "Quicksand", sans-serif; /* (Modern Sans-Serif) */
   --Header-font: "Karla", sans-serif; /* (Bold Sans-Serif) */
+  --margin-size: 2rem; /* (Consistent Margin Size) */
 }
 
 /*  general styles */
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -49,21 +51,15 @@ h3 {
 header {
   position: relative;
   text-align: center;
+  margin-bottom: var(--margin-size);
 }
-header img {
-  width: 100%;
-  height: 40vh;
-  object-fit: cover;
-  display: block;
-}
+
 header h1,
 header h2 {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
   width: 100%;
-  margin: 0;
-  padding: 0 1rem;
   z-index: 2;
 }
 header h1 {
@@ -73,6 +69,17 @@ header h1 {
 header h2 {
   top: 55%;
 }
+
+/* Main  */
+
+.section-heading {
+  margin-bottom: var(--margin-size);
+}
+
+/* common issues section*/
+
+/* media */
+
 @media (max-width: 600px) {
   header h1 {
     top: 25%;
