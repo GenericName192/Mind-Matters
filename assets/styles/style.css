@@ -41,7 +41,7 @@ h3 {
   color: var(--Highlight);
 }
 
-.active {
+.navbar .active {
   color: var(--Highlight) !important;
   font-weight: bold;
 }
@@ -79,7 +79,17 @@ header h2 {
 /* common issues section*/
 
 #common-issues .card {
-  margin-bottom: 3rem;
+  margin-bottom: var(--margin-size);
+}
+
+/* Managing stresss */
+
+#managing-stress-carousel {
+  border-radius: 0.5rem;
+  box-shadow: var(--Primary) 0px 4px 8px;
+  background-color: var(--Highlight);
+  min-height: 15rem;
+  margin-bottom: var(--margin-size);
 }
 
 /* media */
