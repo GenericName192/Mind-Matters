@@ -81,13 +81,16 @@ header h2 {
 #common-issues .card {
   margin-bottom: var(--margin-size);
 }
+.card > img {
+  max-width: 100%;
+  max-height: 100%;
+}
 
 /* Managing stresss */
 
 #managing-stress-carousel {
   border-radius: 0.5rem;
   box-shadow: var(--Primary) 0px 4px 8px;
-  background-color: var(--Highlight);
   min-height: 15rem;
   margin-bottom: var(--margin-size);
 }
@@ -133,7 +136,7 @@ footer {
 @media screen and (min-width: 768px) {
   /* makes all the cards the same height */
   #common-issues .card-body {
-    min-height: 255px;
+    min-height: 270px;
   }
 }
 
@@ -149,7 +152,7 @@ footer {
 @media screen and (min-width: 1200px) {
   /* makes all the cards the same height */
   #common-issues .card-body {
-    min-height: 210px;
+    min-height: 250px;
   }
 }
 
@@ -157,6 +160,6 @@ footer {
 @media screen and (min-width: 1400px) {
   /* makes all the cards the same height */
   #common-issues .card-body {
-    min-height: 185px;
+    min-height: 195px;
   }
 }
