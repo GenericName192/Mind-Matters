@@ -78,9 +78,13 @@ header h2 {
 
 /* common issues section*/
 
+#common-issues .card {
+  margin-bottom: 3rem;
+}
+
 /* media */
 
-@media (max-width: 600px) {
+@media screen and (max-width: 600px) {
   header h1 {
     top: 25%;
     font-size: 1.5rem;
@@ -90,5 +94,36 @@ header h2 {
     top: 45%;
     font-size: 1rem;
     padding: 0 0.5rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  /* makes all the cards the same height */
+  #common-issues .card-body {
+    min-height: 255px;
+  }
+}
+
+/* large devices 992px */
+@media screen and (min-width: 992px) {
+  /* makes all the cards the same height */
+  #common-issues .card-body {
+    min-height: 190px;
+  }
+}
+
+/* extra large devices 1200px */
+@media screen and (min-width: 1200px) {
+  /* makes all the cards the same height */
+  #common-issues .card-body {
+    min-height: 210px;
+  }
+}
+
+/* extra extra large devices 1400px */
+@media screen and (min-width: 1400px) {
+  /* makes all the cards the same height */
+  #common-issues .card-body {
+    min-height: 185px;
   }
 }
