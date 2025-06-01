@@ -92,6 +92,19 @@ header h2 {
   margin-bottom: var(--margin-size);
 }
 
+/* footer */
+footer {
+  background-color: var(--Accent);
+  color: var(--Highlight);
+  padding: 1rem;
+  text-align: center;
+}
+
+.fa-brands {
+  color: var(--Highlight);
+  margin: 0 0.2rem;
+}
+
 /* media */
 
 @media screen and (max-width: 600px) {
