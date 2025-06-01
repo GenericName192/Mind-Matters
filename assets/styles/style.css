@@ -6,7 +6,7 @@
   --Highlight: #e6f2f8; /* (Very Light Aqua) */
   --Body-font: "Quicksand", sans-serif; /* (Modern Sans-Serif) */
   --Header-font: "Karla", sans-serif; /* (Bold Sans-Serif) */
-  --margin-size: 2rem; /* (Consistent Margin Size) */
+  --margin-size: 3rem; /* (Consistent Margin Size) */
 }
 
 /*  general styles */
@@ -90,6 +90,16 @@ header h2 {
   background-color: var(--Highlight);
   min-height: 15rem;
   margin-bottom: var(--margin-size);
+}
+
+.carousel-item > p {
+  margin: 0 var(--margin-size);
+}
+
+.carousel-control-next,
+.carousel-control-prev,
+.carousel-indicators {
+  filter: invert(100%);
 }
 
 /* footer */
