@@ -78,6 +78,10 @@ header h2 {
 
 /* common issues section*/
 
+#common-issues .card-body {
+  height: 160px;
+}
+
 #common-issues .card {
   margin-bottom: var(--margin-size);
 }
@@ -100,6 +104,83 @@ header h2 {
   justify-content: center;
   margin: auto;
   margin-bottom: var(--margin-size);
+}
+
+/* depression card */
+.depression-text-2 {
+  display: none;
+}
+
+.depression-card:hover .depression-text-2 {
+  display: block;
+}
+.depression-card:hover .depression-text-1 {
+  display: none;
+}
+
+/* anixety card */
+
+.anixety-text-2 {
+  display: none;
+}
+
+.anixety-card:hover .anixety-text-2 {
+  display: block;
+}
+.anixety-card:hover .anixety-text-1 {
+  display: none;
+}
+
+/* lonely card */
+
+.lonely-text-2 {
+  display: none;
+}
+
+.lonely-card:hover .lonely-text-2 {
+  display: block;
+}
+.lonely-card:hover .lonely-text-1 {
+  display: none;
+}
+
+/* stress card */
+
+.stress-text-2 {
+  display: none;
+}
+
+.stress-card:hover .stress-text-2 {
+  display: block;
+}
+.stress-card:hover .stress-text-1 {
+  display: none;
+}
+
+/* panic card */
+
+.panic-text-2 {
+  display: none;
+}
+
+.panic-card:hover .panic-text-2 {
+  display: block;
+}
+.panic-card:hover .panic-text-1 {
+  display: none;
+}
+
+/* low self-esteem */
+
+.self-esteem-text-2 {
+  display: none;
+}
+
+.self-esteem-card:hover .self-esteem-text-2 {
+  display: block;
+}
+.self-esteem-card:hover .self-esteem-text-1 {
+  display: none;
 }
 
 /* Managing stresss */
@@ -160,7 +241,7 @@ footer {
 @media screen and (min-width: 768px) {
   /* makes all the cards the same height */
   #common-issues .card-body {
-    min-height: 270px;
+    height: 270px;
   }
 }
 
@@ -168,7 +249,7 @@ footer {
 @media screen and (min-width: 992px) {
   /* makes all the cards the same height */
   #common-issues .card-body {
-    min-height: 190px;
+    height: 200px;
   }
 }
 
@@ -176,7 +257,7 @@ footer {
 @media screen and (min-width: 1200px) {
   /* makes all the cards the same height */
   #common-issues .card-body {
-    min-height: 250px;
+    height: 250px;
   }
   #managing-stress .carousel-item > p {
     margin: 5% 10%;
@@ -187,6 +268,6 @@ footer {
 @media screen and (min-width: 1400px) {
   /* makes all the cards the same height */
   #common-issues .card-body {
-    min-height: 195px;
+    height: 195px;
   }
 }
