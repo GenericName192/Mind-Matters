@@ -1,2 +1,140 @@
-# Mind-Matters
-A project for code institute
+# <center>Mind-Matters </center>
+
+## <center>A project for code institute by David Barton </center>
+
+![an image of the website](documentation/Mind-matters-website-preview.png)
+
+### <center>[Link to the website](https://genericname192.github.io/Mind-Matters/#) </center>
+
+## Index
+
+1. [Overview](#overview)
+2. [UX Design Process](#ux-design-process)
+   - [User Stories](#user-stories)
+   - [Wireframes](#wireframes)
+   - [Color Scheme](#color-scheme)
+   - [Fonts](#fonts)
+3. [Features](#features)
+4. [Improvements](#improvments)
+5. [Deployment](#deployment)
+6. [Testing and Validation](#testing-and-validation)
+7. [AI implementation]()
+8. [References](#references)
+9. [Tech used](#tech-used)
+10. [Learning points](#learning-points)
+
+## Overview
+
+Mind Matters is a basic educational website designed to give easy to understand infomation on mental health issues such as depression, anxiety or feelings of isolation. As it stands it does not include much but I want to expand on it to include some strategies for combating these issues.
+
+## UX Design Process
+
+### User Stories
+
+- As a first-time visitor, I want to easily understand what the site is about so that I know it offers mental health support.
+- As someone new to mental health topics, I want to read clear, beginner-friendly definitions of common issues so that I can identify what I might be experiencing.
+- As a user feeling overwhelmed, I want the site to have a calming design so that I feel safe and supported while reading.
+- As someone looking for help, I want to see tips on how to manage stress so that I can try simple strategies right away.
+- As a visually-oriented learner, I want to see icons or visuals alongside text so that the information is easier to understand and remember.
+- As a mobile user, I want the site to be responsive so that I can read it comfortably on my phone or tablet.
+
+### Wireframes
+
+Moblie view
+
+![A wireframe of how the website should look on moblie](documentation/Mind-matters-moblie.png)
+
+Tablet view
+
+![A wireframe of how the website should look on moblie](documentation/Mind-matters-medium.png)
+
+PC view
+
+![A wireframe of how the website should look on moblie](documentation/Mind-matters-xlarge.png)
+
+This one saw the most change as I decided that 5 on a page was too clutered and also required that the cards be different sizes so in the end I went with 4 on the first line and 2 on the second.
+
+### Color Scheme
+
+I went with what I believe to be a calm and relaxed color scheme due to the nature of the website, I did consider adding in a dark mode feature as this is something I personally like however I felt it to be somewhat inappropriate given the nature of the website. I didnt want a website about mental health to feel at all gloomy. The color scheme was generated using Chatgpt with some minor editing from me. I did consider changing the color scheme a bit for accessibility as it currently only has a AA scoring but in the end I decided to leave it as is due to time restraints as well as not liking the suggested colors to increase the score.
+
+### Fonts
+
+I just went with some readable fonts that I thought looked nice, I used ChatGpt to quickly view a few different options and went with Quicksand for text and Karla for headings.
+
+## Features
+
+The website as it is doesn't have many features it has some info cards with some definitions of common place mental health issues as well as some tips for managing day to day stress, there is more I wanted to do with the website which can be read about below
+
+## Improvments
+
+The website as it is is very basic, I wanted to add the ability to click on the cards and have them change to a couple of basic tips on how to better handle them. I also wanted to add the ability to give feed back to the website via a form and a in crisis button to signpost the user to the samaritans helpline.
+
+## Deployment
+
+The website is hosted via Github pages.
+
+## testing and validation
+
+The code was tested at [https://validator.w3.org/#validate_by_input](https://validator.w3.org/#validate_by_input) and [https://jigsaw.w3.org/css-validator/validator](https://jigsaw.w3.org/css-validator/validator)
+
+HTML
+
+![A screen shot of the code passing the html validator](documentation/Mind-matters-html-validator.png)
+
+I did have some info feedback but I decided to ignore this as it was being caused by an extention I was using.
+
+CSS
+
+![A screen shot of the code passing the css validator](documentation/Mind-matters-css-validator.png)
+
+## AI implementation
+
+I used AI a lot during this project, it was remarkable how easy it was to come up with and test ideas. The main way in which I used AI was during the planning process, it was able to help me name the website, helped me choose a color scheme as well as a font. It was also used to generate a lot of the content of the website. I also found it extremely helpful with code generation and debugging, A link to my conversations with Chatgpt during this project can be found [here](https://chatgpt.com/share/683d7bca-b74c-8003-9439-cf68256709ed)
+
+I feel like AI as it is now let alone how it will be years from now is a bit of a game changer, it massively speeds up the development process, that being said I do feel like the age of software developers is not yet over, AI still comes up with silly ideas and sometimes poorly implements changes causing things to break, an example of this was I asked co-pilot to help me center the cards on my website as I couldn't remember the bootstrap class and co-pilot decided the best way to achieve this was to make a second row for some of the elements to be on which totally ruined the responsiveness of the website. I Think as it stands AI works to augment developers to be able to create content faster but it is not yet at a point were it can replace them.
+
+## References
+
+Google fonts <br>
+https://fonts.google.com/specimen/Quicksand <br>
+https://fonts.google.com/specimen/Karla
+
+Font awesome <br>
+https://fontawesome.com/
+
+Favicon:
+https://favicon.io/favicon-generator/ <br>
+This favicon was generated using the following font:
+
+- Font Title: Karla
+- Font Author: Jonny Pinhorn
+- Font Source: https://fonts.gstatic.com/s/karla/v31/qkBIXvYC6trAT55ZBi1ueQVIjQTD-JqqFENLR7fHGw.ttf
+- Font License: undefined
+
+Images: <br>
+Chatgpt https://chatgpt.com/ <br>
+https://squoosh.app/
+
+Help with code: <br>
+https://stackoverflow.com/questions/19733447/bootstrap-navbar-with-left-center-or-right-aligned-items <br>
+Github Co-Pilot
+
+Help with read me: <br>
+https://www.markdownguide.org/cheat-sheet/ <br>
+https://github.com/dbeckett93/skillified - I used this as a reference for how a readme should look.
+
+## Tech Used
+
+- **HTML5**: For structuring the web pages.
+- **CSS3**: For styling the web pages.
+- **Bootstrap 5**: For responsive design and pre-built components.
+- **Font Awesome**: For social media icons.
+- **Git**: For version control.
+- **GitHub**: For hosting the repository and for deploying the site.
+- **VS Code**: The code editor used for development.
+- **GitHub Copilot**: For code generation and debugging
+
+## Learning points
+
+I feel like I learned a lot on this project but the thing I feel I felt the most was to plan more, due to issues my internet connection I was unable to work during the day set aside for planning this task as such I rushed through it and did not give it the time it deserved and I feel like the project would have gone smoother if I had spent a bit more time thinking things through. An example of this would be the wireframes being different to how it ended up, if I had spent more time on them it would have become clear very quickly that 5 on a row was not a good idea, 12 / 5 is not a whole number.
