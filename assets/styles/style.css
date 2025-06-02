@@ -86,6 +86,11 @@ header h2 {
   height: 100%;
 }
 
+.blockquote {
+  margin-bottom: var(--margin-size);
+  color: var(--Primary);
+}
+
 /* Managing stresss */
 
 #managing-stress-carousel {
