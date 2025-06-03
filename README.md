@@ -15,7 +15,7 @@
    - [Color Scheme](#color-scheme)
    - [Fonts](#fonts)
 3. [Features](#features)
-4. [Improvements](#improvments)
+4. [Improvements](#improvmentsfuture-development)
 5. [Deployment](#deployment)
 6. [Testing and Validation](#testing-and-validation)
 7. [AI implementation](#ai-implementation)
@@ -66,9 +66,9 @@ I just went with some readable fonts that I thought looked nice, I used ChatGpt 
 
 The website as it is doesn't have many features it has some info cards with some definitions of common place mental health issues as well as some tips for dealing with them. There is also some tips on managing day to day stress, a in crisis button that opens a modal signposting to the Samaritans and a form to give feedback. Finally it has a "darkmode" button which just makes the navbar and footer dark green, I did this more just to practise doing that for the future.
 
-## Improvments
+## Improvments/Future development
 
-The website as it is is very basic, in an ideal world I would add a backend allowing for content to be updated easier, I would also like to have added a section on mindfullness but due to time restrains I have decided not to.
+The website as it is is very basic, in an ideal world I would add a backend allowing for content to be updated easier, I would also like to have added a section on mindfullness but due to time restrains I have decided not to. I also like trying to gameify things so maybe add a small game or quiz to allow uses to test the knowledge they gain on the site.
 
 ## Deployment
 
@@ -104,7 +104,7 @@ Lighthouse
 
 ![A screen shot of the code doing well on lighthouse](documentation/Mind-matters-lighthouse-scores.png)
 
-A lot of the issues with the code were from external sources such as bootstrap of font awesome, there were acouple with my code base that I decided to leave as they were, for example I lose some best practise score for low res images however i felt that given the size and the style of the images I was able to get away with them being low res and kept them like that to improve load times. I also lost score on the color scheme but as I addressed in the UX section I decided to keep it for the sake of my design.
+A lot of the issues with the code were from external sources such as bootstrap of font awesome, there were acouple with my code base that I decided to leave as they were, for example I lose some best practise score for low res images however i felt that given the size and the style of the images I was able to get away with them being low res and kept them like that to improve load times. Lighthouse score shows 100% on the contrast but for some reason wave is saying there is an issue with low contrast however I have been unable to find where that issue is and resolve it.
 
 ## AI implementation
 
