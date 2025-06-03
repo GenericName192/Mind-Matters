@@ -29,6 +29,16 @@ h3 {
   color: var(--Primary);
 }
 
+.custom-button {
+  background-color: var(--Accent);
+  color: var(--Highlight);
+}
+
+.custom-button:hover {
+  border: 1px solid var(--Accent);
+  color: var(--Accent);
+}
+
 /* Nav bar */
 
 .navbar {
@@ -44,18 +54,6 @@ h3 {
 .navbar .active {
   color: var(--Highlight) !important;
   font-weight: bold;
-}
-
-/* modal */
-
-.modal-btn-close {
-  background-color: var(--Accent);
-  color: var(--Highlight);
-}
-
-.modal-btn-close:hover {
-  border: 1px solid var(--Accent);
-  color: var(--Accent);
 }
 
 /* header */
@@ -233,6 +231,12 @@ footer {
 .fa-brands {
   color: var(--Highlight);
   margin: 0 0.2rem;
+}
+
+/* contact form */
+
+.contact-form {
+  margin: var(--margin-size);
 }
 
 /* media */
