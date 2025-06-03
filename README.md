@@ -18,7 +18,7 @@
 4. [Improvements](#improvments)
 5. [Deployment](#deployment)
 6. [Testing and Validation](#testing-and-validation)
-7. [AI implementation]()
+7. [AI implementation](#ai-implementation)
 8. [References](#references)
 9. [Tech used](#tech-used)
 10. [Learning points](#learning-points)
@@ -74,7 +74,7 @@ The website as it is is very basic, in an ideal world I would add a backend allo
 
 The website is hosted via Github pages.
 
-## testing and validation
+## Testing and Validation
 
 The code was tested at [https://validator.w3.org/#validate_by_input](https://validator.w3.org/#validate_by_input) and [https://jigsaw.w3.org/css-validator/validator](https://jigsaw.w3.org/css-validator/validator)
 
@@ -87,6 +87,12 @@ I did have some info feedback but I decided to ignore this as it was being cause
 CSS
 
 ![A screen shot of the code passing the css validator](documentation/Mind-matters-css-validator.png)
+
+Lighthouse
+
+![A screen shot of the code doing well on lighthouse](documentation/Mind-matters-lighthouse-scores.png)
+
+A lot of the issues with the code were from external sources such as bootstrap of font awesome, there were acouple with my code base that I decided to leave as they were, for example I lose some best practise score for low res images however i felt that given the size and the style of the images I was able to get away with them being low res and kept them like that to improve load times. I also lost score on the color scheme but as I addressed in the UX section I decided to keep it for the sake of my design.
 
 ## AI implementation
 
