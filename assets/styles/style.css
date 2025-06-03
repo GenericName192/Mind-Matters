@@ -69,10 +69,15 @@ h3 {
   font-weight: bold;
 }
 
-.navbar .form-check-label {
-  color: var(--Highlight);
+.form-check-input {
+  background-color: var(--Accent);
+  border-color: var(--Highlight);
 }
 
+.form-check-input:checked {
+  background-color: var(--Accent);
+  border-color: var(--Highlight);
+}
 /* header */
 
 header {
