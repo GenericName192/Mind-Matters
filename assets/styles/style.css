@@ -9,6 +9,10 @@
   --margin-size: 3rem; /* (Consistent Margin Size) */
 }
 
+.darkmode {
+  --Accent: #2c532a; /* (Darker Blue) */
+}
+
 /*  general styles */
 * {
   margin: 0;
@@ -54,6 +58,10 @@ h3 {
 .navbar .active {
   color: var(--Highlight) !important;
   font-weight: bold;
+}
+
+.nav-item .form-check {
+  margin-top: 10px;
 }
 
 /* header */

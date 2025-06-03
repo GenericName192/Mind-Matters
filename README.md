@@ -124,7 +124,8 @@ https://squoosh.app/
 
 Help with code: <br>
 https://stackoverflow.com/questions/19733447/bootstrap-navbar-with-left-center-or-right-aligned-items <br>
-Github Co-Pilot
+Github Co-Pilot <br>
+https://www.youtube.com/watch?v=_gKEUYarehE&t=46s
 
 Help with read me: <br>
 https://www.markdownguide.org/cheat-sheet/ <br>
