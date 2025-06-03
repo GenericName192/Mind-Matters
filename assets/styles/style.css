@@ -236,7 +236,11 @@ footer {
 /* contact form */
 
 .contact-form {
-  margin: var(--margin-size);
+  margin-top: var(--margin-size);
+}
+
+.contact-form .custom-button {
+  margin-top: var(--margin-size);
 }
 
 /* media */
