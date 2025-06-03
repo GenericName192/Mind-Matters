@@ -78,6 +78,9 @@ h3 {
   background-color: var(--Accent);
   border-color: var(--Highlight);
 }
+.form-check-label {
+  color: var(--Highlight);
+}
 /* header */
 
 header {
