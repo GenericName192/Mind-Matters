@@ -60,10 +60,6 @@ h3 {
   font-weight: bold;
 }
 
-.nav-item .form-check {
-  margin-top: 10px;
-}
-
 /* header */
 
 header {
@@ -278,6 +274,9 @@ footer {
   /* makes all the cards the same height */
   #common-issues .card-body {
     height: 200px;
+  }
+  .nav-item .form-check {
+    margin-top: 10px;
   }
 }
 
