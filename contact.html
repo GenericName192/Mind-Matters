@@ -96,7 +96,7 @@
       id="crisismodal"
       tabindex="-1"
       role="dialog"
-      aria-labelledby="crisismodal-modal-title"
+      aria-labelledby="crisis-modal-title"
       aria-hidden="true">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
@@ -125,41 +125,44 @@
         </div>
       </div>
     </div>
-    <div class="container contact-form">
-    <form action="success.html" method="GET">
-      <div class="row">
-        <div class="col-12 col-lg-6 mb-3">
-          <label for="name" class="form-label">Name</label>
-          <input
-            class="form-control"
-            id="name"
-            name="name"
-            type="text"
-            required />
-        </div>
-        <div class="col-12 col-lg-6 mb-3">
-          <label for="email" class="form-label">Email</label>
-          <input
-            class="form-control"
-            id="email"
-            name="email"
-            type="email"
-            required />
-        </div>
-        <div class="col-12 mb-3">
-          <label for="message" class="form-label">Message</label>
-          <textarea
-            required
-            class="form-control"
-            rows="6"
-            id="message"
-            name="message"></textarea>
-        </div>
-      </div>
-      </div>
 
-      <button type="submit" class="btn custom-button col-2 mx-auto">Submit</button>
-    </form>
+    <!-- Contact Form -->
+    <div class="container contact-form">
+      <form action="success.html" method="GET">
+        <div class="row">
+          <div class="col-12 col-lg-6 mb-3">
+            <label for="name" class="form-label">Name</label>
+            <input
+              class="form-control"
+              id="name"
+              name="name"
+              type="text"
+              required />
+          </div>
+          <div class="col-12 col-lg-6 mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input
+              class="form-control"
+              id="email"
+              name="email"
+              type="email"
+              required />
+          </div>
+          <div class="col-12 mb-3">
+            <label for="message" class="form-label">Message</label>
+            <textarea
+              required
+              class="form-control"
+              rows="6"
+              id="message"
+              name="message"></textarea>
+          </div>
+        </div>
+        <button type="submit" class="btn custom-button col-2 mx-auto">
+          Submit
+        </button>
+      </form>
+    </div>
 
     <!-- Footer -->
     <footer class="mt-auto">

@@ -64,11 +64,11 @@ I just went with some readable fonts that I thought looked nice, I used ChatGpt 
 
 ## Features
 
-The website as it is doesn't have many features it has some info cards with some definitions of common place mental health issues as well as some tips for managing day to day stress, there is more I wanted to do with the website which can be read about below
+The website as it is doesn't have many features it has some info cards with some definitions of common place mental health issues as well as some tips for dealing with them. There is also some tips on managing day to day stress, a in crisis button that opens a modal signposting to the Samaritans and a form to give feedback.
 
 ## Improvments
 
-The website as it is is very basic, I wanted to add the ability to click on the cards and have them change to a couple of basic tips on how to better handle them. I also wanted to add the ability to give feed back to the website via a form and a in crisis button to signpost the user to the samaritans helpline.
+The website as it is is very basic, in an ideal world I would add a backend allowing for content to be updated easier, I would also like to have added a section on mindfullness but due to time restrains I have decided not to.
 
 ## Deployment
 
