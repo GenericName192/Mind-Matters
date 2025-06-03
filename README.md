@@ -64,7 +64,7 @@ I just went with some readable fonts that I thought looked nice, I used ChatGpt 
 
 ## Features
 
-The website as it is doesn't have many features it has some info cards with some definitions of common place mental health issues as well as some tips for dealing with them. There is also some tips on managing day to day stress, a in crisis button that opens a modal signposting to the Samaritans and a form to give feedback.
+The website as it is doesn't have many features it has some info cards with some definitions of common place mental health issues as well as some tips for dealing with them. There is also some tips on managing day to day stress, a in crisis button that opens a modal signposting to the Samaritans and a form to give feedback. Finally it has a "darkmode" button which just makes the navbar and footer dark green, I did this more just to practise doing that for the future.
 
 ## Improvments
 
