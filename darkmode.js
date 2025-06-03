@@ -17,7 +17,9 @@ if (darkmode === "active") {
 
 themeSwitch.addEventListener("click", () => {
   darkmode = localStorage.getItem("darkmode");
-  darkmode !== "active" ? enableDarkMode() : disableDarkMode();
-  //   the above is just a shorthand for an if-else statement, if first condition
-  // is true, it will execute the first function, otherwise the second one
+  if (darkmode !== "active") {
+    enableDarkMode();
+  } else {
+    disableDarkMode();
+  }
 });

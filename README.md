@@ -83,10 +83,15 @@ HTML
 ![A screen shot of the code passing the html validator](documentation/Mind-matters-html-validator.png)
 
 I did have some info feedback but I decided to ignore this as it was being caused by an extention I was using.
+I have also run the validator on each other page and it has returned with the same.
 
 CSS
 
 ![A screen shot of the code passing the css validator](documentation/Mind-matters-css-validator.png)
+
+JS
+
+![A screen shot of the code passing the JS validator](documentation/Mind-matters-js-validator.png)
 
 Lighthouse
 

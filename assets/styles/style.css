@@ -1,7 +1,7 @@
 :root {
   --Background: #f0f4f8; /*(Very Light Blue-Gray) */
-  --Primary: #3f88c5; /* (Sky Blue) */
-  --Accent: #3f5767; /* (Darker Blue) */
+  --Primary: #2c6594; /* (Sky Blue) */
+  --Accent: #25333d; /* (Darker Blue) */
   --Text: #333333; /*(Dark Gray) */
   --Highlight: #e6f2f8; /* (Very Light Aqua) */
   --Body-font: "Quicksand", sans-serif; /* (Modern Sans-Serif) */
@@ -55,9 +55,22 @@ h3 {
   color: var(--Highlight);
 }
 
+.nav-link:hover {
+  color: var(--Highlight);
+  text-decoration: underline;
+}
+
 .navbar .active {
+  color: var(white) !important;
+  text-decoration: underline;
+}
+.navbar .active:hover {
   color: var(--Highlight) !important;
   font-weight: bold;
+}
+
+.navbar .form-check-label {
+  color: var(--Highlight);
 }
 
 /* header */
