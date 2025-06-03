@@ -75,12 +75,55 @@
               <a class="nav-link" href="#">Contact us</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">In Crisis?</a>
+              <button
+                class="nav-link"
+                data-bs-toggle="modal"
+                data-bs-target="#crisismodal"
+                type="button">
+                In Crisis?
+              </button>
             </li>
           </ul>
         </div>
       </div>
     </nav>
+
+    <!-- crisismodal -->
+    <div
+      class="modal fade"
+      id="crisismodal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="crisismodal-modal-title"
+      aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="crisis-modal-title">
+              In crisis? Think Samaritans
+            </h5>
+          </div>
+          <div class="modal-body">
+            <p>
+              If you or someone you know is in crisis consider reaching out to
+              the Samaritans on 116 123 or visit their website at
+              <a href="https://www.samaritans.org/"
+                >https://www.samaritans.org/</a
+              >
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn modal-btn-close"
+              data-bs-dismiss="modal">
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <header>
       <img
         src="assets/images/mind-matter-hero-image-1.webp"
