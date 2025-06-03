@@ -56,7 +56,7 @@ This one saw the most change as I decided that 5 on a page was too clutered and 
 
 ### Color Scheme
 
-I went with what I believe to be a calm and relaxed color scheme due to the nature of the website, I did consider adding in a dark mode feature as this is something I personally like however I felt it to be somewhat inappropriate given the nature of the website. I didnt want a website about mental health to feel at all gloomy. The color scheme was generated using Chatgpt with some minor editing from me. I did consider changing the color scheme a bit for accessibility as it currently only has a AA scoring but in the end I decided to leave it as is due to time restraints as well as not liking the suggested colors to increase the score.
+I orignally went with what I believe to be a calm and relaxed color scheme due to the nature of the website, however I ran into some issues with wave that ended up changing the color scheme to a much darker one. The color scheme was generated using Chatgpt with some editing from me. If I had more time I would like to revisit the color scheme and find more of a balence between what I was after and accessability.
 
 ### Fonts
 
@@ -68,7 +68,7 @@ The website as it is doesn't have many features it has some info cards with some
 
 ## Improvments/Future development
 
-The website as it is is very basic, in an ideal world I would add a backend allowing for content to be updated easier, I would also like to have added a section on mindfullness but due to time restrains I have decided not to. I also like trying to gameify things so maybe add a small game or quiz to allow uses to test the knowledge they gain on the site.
+The website as it is is very basic, in an ideal world I would add a backend allowing for content to be updated easier, I would also like to have added a section on mindfullness but due to time restrains I have decided not to. I also like trying to gameify things so maybe add a small game or quiz to allow uses to test the knowledge they gain on the site. I would also like to revisit the color scheme as I am currently unhappy with it.
 
 ## Deployment
 
@@ -104,7 +104,7 @@ Lighthouse
 
 ![A screen shot of the code doing well on lighthouse](documentation/Mind-matters-lighthouse-scores.png)
 
-A lot of the issues with the code were from external sources such as bootstrap of font awesome, there were acouple with my code base that I decided to leave as they were, for example I lose some best practise score for low res images however i felt that given the size and the style of the images I was able to get away with them being low res and kept them like that to improve load times. Lighthouse score shows 100% on the contrast but for some reason wave is saying there is an issue with low contrast however I have been unable to find where that issue is and resolve it.
+A lot of the issues with the code were from external sources such as bootstrap of font awesome, there were acouple with my code base that I decided to leave as they were, for example I lose some best practise score for low res images however i felt that given the size and the style of the images I was able to get away with them being low res and kept them like that to improve load times.
 
 ## AI implementation
 
