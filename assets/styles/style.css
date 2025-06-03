@@ -3,14 +3,14 @@
   --Primary: #2c6594; /* (Sky Blue) */
   --Accent: #25333d; /* (Darker Blue) */
   --Text: #333333; /*(Dark Gray) */
-  --Highlight: #e6f2f8; /* (Very Light Aqua) */
+  --Highlight: #ffffff; /* (white) */
   --Body-font: "Quicksand", sans-serif; /* (Modern Sans-Serif) */
   --Header-font: "Karla", sans-serif; /* (Bold Sans-Serif) */
   --margin-size: 3rem; /* (Consistent Margin Size) */
 }
 
 .darkmode {
-  --Accent: #2c532a; /* (Darker Blue) */
+  --Accent: #000000; /* (black) */
 }
 
 /*  general styles */
@@ -60,7 +60,7 @@ h3 {
   text-decoration: underline;
 }
 
-.navbar .active {
+.navbar .active-link {
   color: var(white) !important;
   text-decoration: underline;
 }
